@@ -2,7 +2,7 @@ FROM thedrhax/android-sdk:latest
 
 MAINTAINER Ken Leung <ken.leung@infinitus-int.com>
 
-ENV JENKINS_SLAVE_ROOT="/home/user/jenkins-slave"
+ENV JENKINS_SLAVE_ROOT="/var/jenkins_home"
 
 USER root
 
