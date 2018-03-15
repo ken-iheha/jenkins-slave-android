@@ -1,6 +1,6 @@
 FROM thedrhax/android-sdk:latest
 
-MAINTAINER Dmitry Karikh <the.dr.hax@gmail.com>
+MAINTAINER Ken Leung <ken.leung@infinitus-int.com>
 
 ENV JENKINS_SLAVE_ROOT="/home/user/jenkins-slave"
 
