@@ -11,7 +11,7 @@ RUN apt-get update \
  && apt-get install -y socat android-tools-adb \
  && apt-get install qemu-kvm \
  && apt-get clean \
- && rm -rf /var/lib/apt/lists /var/cache/apt.
+ && rm -rf /var/lib/apt/lists /var/cache/apt
 
 USER user
 
