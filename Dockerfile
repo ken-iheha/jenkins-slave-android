@@ -10,7 +10,8 @@ USER root
 RUN apt-get update \
  && apt-get install -y socat android-tools-adb \
  && apt-get clean \
- && rm -rf /var/lib/apt/lists /var/cache/apt
+ && apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils \
+ && rm -rf /var/lib/apt/lists /var/cache/apt.
 
 USER user
 
