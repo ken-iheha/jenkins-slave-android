@@ -8,7 +8,7 @@ USER root
 
 # Install some useful packages
 RUN apt-get update \
- && apt-get install -y socat android-tools-adb qemu-kvm\
+ && apt-get install -y qemu-kvm qemu-utils bridge-utils socat android-tools-adb\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists /var/cache/apt
 
