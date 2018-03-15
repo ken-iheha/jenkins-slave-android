@@ -8,7 +8,7 @@ USER root
 
 # Install some useful packages
 RUN apt-get update \
- && apt-get install -y qemu-kvm qemu-utils bridge-utils sudo socat android-tools-adb lib32stdc++6 lib32z1 ia32-libs\
+ && apt-get install -y qemu-kvm qemu-utils bridge-utils sudo socat android-tools-adb ia32-libs\
  && apt-get clean \
  && rm -rf /var/lib/apt/lists /var/cache/apt
 
